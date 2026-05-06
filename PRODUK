@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<h2>Produk Imajinasi Kami</h2>
+
+{% for p in produk %}
+<div class="card {% if loop.first %}highlight{% endif %}">
+    <h3>{{ p.nama }}</h3>
+    <p>{{ p.deskripsi }}</p>
+    <b>{{ p.harga }}</b>
+</div>
+{% endfor %}
+
+<p><i>*Produk pertama adalah unggulan kami</i></p>
+
+{% endblock %}
