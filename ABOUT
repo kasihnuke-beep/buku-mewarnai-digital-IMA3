@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<h2>Tentang Tinta Imajinasi</h2>
+
+<p>
+Berawal dari sebuah ide sederhana:
+bagaimana jika imajinasi bisa dijual?
+</p>
+
+<p>
+Kami hadir untuk mengubah kreativitas menjadi produk digital nyata.
+</p>
+
+<b>Visi:</b>
+<p>Menghidupkan imajinasi dalam dunia digital</p>
+
+<b>Misi:</b>
+<ul>
+    <li>Menciptakan produk kreatif</li>
+    <li>Menginspirasi pengguna</li>
+    <li>Membantu bisnis tampil unik</li>
+</ul>
+
+{% endblock %}
