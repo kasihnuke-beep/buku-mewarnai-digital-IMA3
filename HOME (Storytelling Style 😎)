@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<h1>Selamat Datang di Dunia Tinta Imajinasi</h1>
+
+<p>
+Di sini, setiap ide berubah menjadi karya digital.
+Kami tidak hanya menjual produk…
+kami menjual imajinasi.
+</p>
+
+{% endblock %}
